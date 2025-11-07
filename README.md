@@ -7,7 +7,7 @@
 
 - [cite_start]🔭 Atualmente, estou focado em projetos que envolvem Python, desenvolvimento web e análise de dados[cite: 5].
 - [cite_start]🌱 Aprendendo e aprofundando meus conhecimentos em metodologias ágeis como Scrum[cite: 50].
-- [cite_start]📫 Como me encontrar: **[felipedutrain@gmail.com](mailto:felipedutrain@gmail.com)** [cite: 2]
+- [cite_start]📫 Como me encontrar: **[felipedutrain@gmail.com](mailto:felipedutrain@gmail.com)** 
 
 <br>
 
@@ -36,4 +36,4 @@ Minha experiência inclui projetos acadêmicos e pessoais com as seguintes tecno
 <br>
 
 ## 🔗 Conecte-se Comigo
-[cite_start][![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-dutrain-756135342/) [cite: 2]
+[cite_start][![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-dutrain-756135342/)
