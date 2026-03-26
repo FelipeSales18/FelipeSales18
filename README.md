@@ -3,7 +3,7 @@
 <br>
 
 ## 👨‍💻 About Me
-Computer Engineering student at **IBMEC (4th semester)** with an analytical mindset and a strong passion for solving real-world problems through technology.  
+Computer Engineering student at **IBMEC (5th semester)** with an analytical mindset and a strong passion for solving real-world problems through technology.  
 Highly interested in **Artificial Intelligence, process automation, system integration, and intelligent solutions development**.
 
 Currently seeking internship opportunities in **Software Development, Data Analysis, AI or Automation**, where I can apply my knowledge and keep evolving.
@@ -19,7 +19,7 @@ Currently seeking internship opportunities in **Software Development, Data Analy
 <br>
 
 ## 👨‍💻 Sobre Mim 🇧🇷
-Estudante de **Engenharia da Computação no IBMEC (4º período)**, com perfil analítico e grande paixão por resolver problemas reais usando tecnologia.  
+Estudante de **Engenharia da Computação no IBMEC (5º período)**, com perfil analítico e grande paixão por resolver problemas reais usando tecnologia.  
 Sou extremamente interessado por **Inteligência Artificial, automação de processos, integração de sistemas e desenvolvimento de soluções inteligentes**.
 
 Busco oportunidades de estágio em **Desenvolvimento de Software, Análise de Dados ou áreas envolvendo IA e automação**, onde eu possa aplicar meus conhecimentos e evoluir constantemente.
