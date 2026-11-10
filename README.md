@@ -1,66 +1,40 @@
-# Hi, I'm Felipe Dutrain de Sales 👋
+<div align="center">I build and evaluate AI systems end to end — from model fine-tuning and efficient inference to data pipelines, computer vision, and software integrations. I'm particularly interested in turning experimental ideas into reproducible, measurable systems.
 
-<br>
+My work spans LLM optimization on constrained hardware, natural-language analytics over cloud data, and visual recognition pipelines. I enjoy the engineering behind making a model useful: designing evaluations, measuring trade-offs, and documenting limitations.
+Featured projects
+LLM-PS4 — Running a fine-tuned Qwen3-1.7B on a PlayStation 4
+Fine-tuned Qwen3-1.7B on GSM8K using GRPO + LoRA, converted the model to GGUF, and ran inference on a 2013 PlayStation 4 with Linux using llama.cpp, including GPU acceleration through Vulkan.
+- 75.8% strict-format accuracy and 76.3% flexible answer accuracy on the full GSM8K test set (1,319 questions) with the full-precision tuned model.
+- 1.56× faster answers on the PS4 GPU versus its CPU (11.18 s vs. 17.47 s per answer), measured on the same 100 questions.
+- 72.9% flexible accuracy on all 1,319 questions using the quantized Q4_K_M model on the PS4 GPU.
+- Includes reproducible experiments, evaluation scripts, quantization comparisons, and hardware benchmarks.
+Stack: Python · PyTorch · GRPO/LoRA · Qwen3 · llama.cpp · GGUF · Vulkan · Linux
+Links: Code & results · Model on Hugging Face
+AI Financial Data Assistant — Reliable natural-language analytics on AWS
+Built a hybrid AI analytics system that translates financial questions into validated, deterministic, read-only SQL, using LLM intent classification and querying partitioned data through Amazon Athena.
+- 81.7% accuracy (49/60) on a frozen, previously unseen evaluation set.
+- 59/59 applicable test cases applied partition pruning in that evaluation.
+- Designed explicit prompt-injection checks, Pydantic validation, and SQL AST guardrails.
+- Uses synthetic data, with documented methodology and known limitations.
+Stack: Python · AWS S3/Athena/Glue · NVIDIA NIM · SQLGlot · Pydantic · Parquet · Streamlit
+Link: Code, architecture & evaluations
+Police Argos — Brazilian license plate recognition
+Developed a computer-vision pipeline to detect Brazilian license plates and read their characters locally, supporting both older and Mercosul plate formats.
+- YOLOv11 for plate detection and EasyOCR for text recognition.
+- Multi-scale detection, image preprocessing, OCR voting, and confidence visualizations.
+- Published a fine-tuned plate-detection model for reuse.
+Stack: Python · YOLOv11 · EasyOCR · OpenCV
+Links: Code · Detection model
+Technical toolkit
+Area	Technologies
+AI & Machine Learning	PyTorch, Hugging Face, GRPO/LoRA, scikit-learn, YOLO, OpenCV
+Data & Cloud	Python, Pandas, SQL, PostgreSQL, Parquet, AWS S3/Athena/Glue
+Backend & Automation	Django/DRF, REST APIs, n8n, Supabase, Docker
+Frontend & Development	JavaScript/TypeScript, React, Git/GitHub, Linux
 
-## 👨‍💻 About Me
-Computer Engineering student at **IBMEC (5th semester)** with an analytical mindset and a strong passion for solving real-world problems through technology.  
-Highly interested in **Artificial Intelligence, process automation, system integration, and intelligent solutions development**.
 
-Currently seeking internship opportunities in **Software Development, Data Analysis, AI or Automation**, where I can apply my knowledge and keep evolving.
-
-- 🔭 Working on projects involving **Python, Automation, AI, and Web Development**
-- 🤖 Enthusiastic about intelligent agents, machine learning, and process optimization  
-- 🌱 Using **Agile methodologies (Scrum, Kanban)** and software best practices  
-- 🚀 Studying tools and frameworks for **Data, AI, and system integrations**
-- 📫 Contact: **[felipedutrain@gmail.com](mailto:felipedutrain@gmail.com)**  
-
----
-
-<br>
-
-## 👨‍💻 Sobre Mim 🇧🇷
-Estudante de **Engenharia da Computação no IBMEC (5º período)**, com perfil analítico e grande paixão por resolver problemas reais usando tecnologia.  
-Sou extremamente interessado por **Inteligência Artificial, automação de processos, integração de sistemas e desenvolvimento de soluções inteligentes**.
-
-Busco oportunidades de estágio em **Desenvolvimento de Software, Análise de Dados ou áreas envolvendo IA e automação**, onde eu possa aplicar meus conhecimentos e evoluir constantemente.
-
-- 🔭 Atualmente desenvolvendo projetos com foco em **Python, automação, IA e desenvolvimento web**
-- 🤖 Fascinado por automações, agentes inteligentes, machine learning e otimização de processos  
-- 🌱 Aplicando **metodologias ágeis (Scrum, Kanban)** e boas práticas de desenvolvimento  
-- 🚀 Estudando frameworks e ferramentas voltadas para **dados, IA e integrações**
-- 📫 Contato: **[felipedutrain@gmail.com](mailto:felipedutrain@gmail.com)**  
-
----
-
-<br>
-
-## 🛠️ Technologies & Tools | Tecnologias e Ferramentas
-
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" height="40" alt="django logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="cplusplus logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" height="40" alt="arduino logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="mysql logo"/>
-  <img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="40" alt="pandas logo"/>
-</div>
-
----
-
-<br>
-
-## 📊 GitHub Stats | Estatísticas do GitHub
-[![FelipeSales18 GitHub Stats](https://github-readme-stats.vercel.app/api?username=FelipeSales18&show_icons=true&theme=dark&hide_border=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=FelipeSales18&layout=compact&theme=dark&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-<br>
-
-## 🔗 Connect with me | Conecte-se comigo
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-dutrain-756135342/)
+Let's connect
+I'm interested in applied AI, ML engineering, data engineering, and software development, especially opportunities to collaborate with experienced engineering teams.
+- LinkedIn: felipe-dutrain-756135342
+- Hugging Face: felipedutrain
+- Email: felipedutrain@gmail.com
