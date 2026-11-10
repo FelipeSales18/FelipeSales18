@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Felipe Dutrain de Sales — Applied AI, grounded in engineering.</title>
+<desc id="desc">Dark navy editorial banner with mint lettering and a geometric circuit motif. AI / ML, Data Engineering, Software.</desc>
+<defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#233047" stroke-width=".6"/></pattern><linearGradient id="fade"><stop stop-color="#0c1424"/><stop offset="1" stop-color="#132a39"/></linearGradient></defs>
+<rect width="1200" height="420" rx="16" fill="url(#fade)"/>
+<rect x="790" width="410" height="420" fill="url(#grid)"/>
+<rect x="48" y="46" width="32" height="4" fill="#6ce5c1"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="94" y="55" fill="#c4d0df" font-size="15" letter-spacing="3">FELIPE DUTRAIN DE SALES</text>
+<text x="48" y="147" fill="#f2f6fb" font-size="64" font-weight="700" letter-spacing="-2">Applied AI,</text>
+<text x="48" y="220" fill="#6ce5c1" font-size="62" font-weight="700" letter-spacing="-2">grounded in engineering.</text>
+<text x="50" y="271" fill="#b0bfd2" font-size="20">From experiments to measurable, reproducible systems.</text>
+<path d="M48 315H1152" stroke="#33495b"/>
+<text x="48" y="361" fill="#e2eaf4" font-size="16" letter-spacing="2">AI / ML</text>
+<text x="190" y="361" fill="#6ce5c1" font-size="16">/</text>
+<text x="220" y="361" fill="#e2eaf4" font-size="16" letter-spacing="2">DATA ENGINEERING</text>
+<text x="466" y="361" fill="#6ce5c1" font-size="16">/</text>
+<text x="497" y="361" fill="#e2eaf4" font-size="16" letter-spacing="2">SOFTWARE</text>
+<text x="1152" y="361" fill="#93a9bc" font-size="14" text-anchor="end">RIO DE JANEIRO · BR</text>
+</g>
+<g fill="none" stroke="#6ce5c1" stroke-width="1.5" opacity=".45"><path d="M985 46h105v55h62M1040 46v35h-90v38h-40"/><circle cx="985" cy="46" r="5" fill="#6ce5c1"/><circle cx="1152" cy="101" r="5"/><circle cx="910" cy="119" r="5"/></g>
+</svg>
